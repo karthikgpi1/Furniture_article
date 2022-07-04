@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    background-color: rgba(155, 192, 180, 0.726);
+}
+.article{
+    display: flex;
+    width: 900px;
+    height: 350px;
+    margin: 130px 240px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+      
+}
+.article img{
+    width: 350px;
+    height: 350px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+
+}
+
+.article .content{
+    padding: 30px;
+}
+
+.article .content h1{
+    font-size: 24px;
+    padding: 10px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.article .content p{
+    font-size: 16px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.content .bio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+
+}
+
+.content .bio .left img{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(155, 192, 180, 0.726);
+    padding: 4px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.content .bio .right img{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(155, 192, 180, 0.726);
+    padding: 13px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.content .bio .left{
+    display: flex;
+    padding: 0 15px;
+}
+
+.content .bio .center{
+    padding-right: 210px;
+}
+
+
+
+
+
+
+
