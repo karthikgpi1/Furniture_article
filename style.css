@@ -9,16 +9,26 @@
 
 body{
     background-color: rgba(155, 192, 180, 0.726);
+    height: 100vh; 
+    display: flex;
+    /* padding-top: 140px;
+    padding-left: 220px; */
+    align-items: center;
+    justify-content: center;
+   
 }
 .article{
     display: flex;
     width: 900px;
     height: 350px;
-    margin: 130px 240px;
-    align-items: center;
+    /* margin: 30px 40px; */
+    /* align-items: center; */
     justify-content: center;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
+    /* margin-left: 220px;
+    margin-right: 110px;
+    transform: translatey(40%); */
       
 }
 .article img{
@@ -34,7 +44,7 @@ body{
 }
 
 .article .content{
-    padding: 30px;
+    padding: 20px;
 }
 
 .article .content h1{
@@ -52,9 +62,10 @@ body{
 
 .content .bio{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
+    padding-top: 25px;
+    /* justify-content: space-between;
+    align-items: center; */
+    /* position: relative; */
 
 }
 
@@ -82,7 +93,7 @@ body{
 }
 
 .content .bio .center{
-    padding-right: 210px;
+    padding-right: 220px;
 }
 
 
